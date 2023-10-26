@@ -1480,13 +1480,8 @@ span.selector-title-preset-name {
 }
 
 .settings-section {
-  display: none;
   flex-grow: 1;
   overflow-y: auto;
-}
-
-.settings-section.active {
-  display: blocK;
 }
 
 .settings-section-header {
@@ -1504,12 +1499,7 @@ span.selector-title-preset-name {
 }
 
 .settings-section-content {
-  display: none;
   margin: 0 10px;
-}
-
-.settings-section.active > .settings-section-content {
-  display: block;
 }
 
 .settings-section-header-indicator {

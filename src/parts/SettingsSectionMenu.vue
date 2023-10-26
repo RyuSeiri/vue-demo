@@ -1,6 +1,5 @@
-,
 <template>
-  <div class="settings-section active" v-if="showTitle === 'Settings'">
+  <div class="settings-section " v-if="showTitle === 'Settings'">
     <div class="settings-section-content">
       <h2 class="settings-section-header">Settings</h2>
       <div class="settings-section-group">
@@ -355,7 +354,7 @@
     </div>
   </div>
   <div
-    class="settings-section settings-section-logos active"
+    class="settings-section settings-section-logos "
     v-else-if="showTitle === 'Logos'"
   >
     <div class="settings-section-content">
@@ -601,7 +600,7 @@
           </div>
         </div>
       </div>
-      <div class="logo-section active">
+      <div class="logo-section ">
         <div class="selector-container">
           <h3 class="selector-title">
             <div class="selector-title-buttons">
@@ -663,7 +662,7 @@
         <div class="layer-container layer-container-logos">
           <div id="logos_brand_0" class="layer editable">
             <div class="settings-toggle-color-container">
-              <button tabindex="0" class="toggle-basic active">
+              <button tabindex="0" class="toggle-basic ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -953,7 +952,7 @@
       </div>
     </div>
   </div>
-  <div class="settings-section active" v-else-if="showTitle === 'Shirt'">
+  <div class="settings-section " v-else-if="showTitle === 'Shirt'">
     <div class="settings-section-content">
       <h2 class="settings-section-header">Shirt</h2>
       <div class="settings-section-group settings-section-group-collar">
@@ -1875,7 +1874,7 @@
       </div>
     </div>
   </div>
-  <div class="settings-section active" v-else-if="showTitle === 'Shorts'">
+  <div class="settings-section " v-else-if="showTitle === 'Shorts'">
     <div class="settings-section-content">
       <h2 class="settings-section-header">Shorts</h2>
 
@@ -2044,7 +2043,7 @@
       </div>
     </div>
   </div>
-  <div class="settings-section active" v-else-if="showTitle === 'Socks'">
+  <div class="settings-section " v-else-if="showTitle === 'Socks'">
     <div class="settings-section-content">
       <h2 class="settings-section-header">Socks</h2>
 
@@ -2196,7 +2195,7 @@
       </div>
     </div>
   </div>
-  <div class="settings-section active" v-else-if="showTitle === 'Printing'">
+  <div class="settings-section " v-else-if="showTitle === 'Printing'">
     <div class="settings-section-content">
       <h2 class="settings-section-header">Tools</h2>
       <div class="settings-section-group">
@@ -2356,7 +2355,7 @@
       </div>
     </div>
   </div>
-  <div class="settings-section active" v-else-if="showTitle === 'Tools'">
+  <div class="settings-section " v-else-if="showTitle === 'Tools'">
     <div class="settings-section-content">
       <h2 class="settings-section-header">Printing</h2>
       <div class="input-container">

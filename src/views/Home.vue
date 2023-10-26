@@ -55,11 +55,11 @@
 </template>
 
 <script>
-import TabBar from "../parts/TabBar.vue";
-import SettingsBar from "../parts/SettingsBar.vue";
-import NotificationBar from "../parts/NotificationBar.vue";
-import DownLoadBtnSection from "../parts/DownLoadBtnSection.vue";
-import ColorPicker from "../parts/ColorPicker.vue";
+import TabBar from "@/parts/TabBar.vue";
+import SettingsBar from "@/parts/SettingsBar.vue";
+import NotificationBar from "@/parts/NotificationBar.vue";
+import DownLoadBtnSection from "@/parts/DownLoadBtnSection.vue";
+import ColorPicker from "@/parts/ColorPicker.vue";
 import Loading from "@/parts/Loading.vue";
 import SelectorModal from "@/parts/SelectorModal.vue";
 import SavePriviewModal from "@/parts/SavePriviewModal.vue";

@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
-import ThreeD from "../views/ThreeD.vue";
-import Texture from "../views/Texture.vue";
-import HowTo from "../views/HowTo.vue";
-import Upcoming from "../views/Upcoming.vue";
-import About from "../views/About.vue";
-import Account from "../views/Account.vue";
-import NotFound from "../views/NotFound.vue";
+import ThreeD from "@/views/ThreeD.vue";
+import Texture from "@/views/Texture.vue";
+import HowTo from "@/views/HowTo.vue";
+import Upcoming from "@/views/Upcoming.vue";
+import About from "@/views/About.vue";
+import Account from "@/views/Account.vue";
+import NotFound from "@/views/NotFound.vue";
 
 // ルーターを宣言
 const routes = [
